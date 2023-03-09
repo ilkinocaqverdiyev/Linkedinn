@@ -1,0 +1,924 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    width: 100%;
+    height: 80px;
+    padding-top: 12px;
+    padding-bottom: 16px;
+    text-align: right;
+    display: flex;
+    justify-content: center;
+}
+
+.orta {
+    width: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.sol,
+.sag {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    float: left;
+
+}
+
+.logo img {
+    width: 150px;
+    color: blue;
+    float: left;
+    padding-top: 6px;
+    padding-left: 5px;
+}
+
+.sag {
+    display: flex;
+    justify-content: space-between;
+}
+
+.basliglar {
+    width: 50%;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-nav li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.xett {
+    width: 2px;
+    height: 100%;
+    background-color: grey;
+    padding-top: 50px;
+}
+
+.cta {
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta-1 a {
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.cta-1 a:hover {
+    background-color: grey;
+}
+
+.cta-2 a {
+    border: 1px solid blue;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px 0 10px;
+}
+
+.orta-1 {
+    width: 90%;
+    display: flex;
+}
+
+.sol-1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.sol1-basliq {
+    width: 62%;
+}
+
+.sol1-basliq h1 {
+    color: #8f5849;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.sol1-inputlar {
+    margin: 30px 0;
+    width: 62%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sol1-inputlar input {
+    width: 100%;
+    border: 1px solid #3f3f3f;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    outline-color: #2454a5;
+}
+
+.sol1-unutdum {
+    width: 62%;
+}
+
+.sol1-giris {
+    width: 62%;
+    margin: 20px 0;
+}
+
+.sol1-giris a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    background-color: #0073b1;
+    color: white;
+    border-radius: 45px;
+    font-size: 20px;
+}
+
+.sol1-yeni {
+    margin-top: 100px;
+    width: 62%;
+}
+
+.sol1-yeni a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 14px;
+    border-radius: 45px;
+    font-size: 20px;
+    border: 1px solid #3f3f3f;
+}
+
+
+.sag-1 {
+    width: 50%;
+}
+
+.sag1-sekil {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sag-1 img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+section,
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orta-2 {
+    width: 80%;
+    display: flex;
+}
+
+.sol-2 {
+    width: 45%;
+
+}
+
+.sol2-qeyd {
+    width: 62%;
+
+}
+
+.sol2-qeyd h1 {
+    color: #3f3f3f;
+    ;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.sag-2 {
+    width: 55%;
+
+}
+
+.sec2 {
+    background-color: #f3f2f0;
+    width: 100%;
+    height: 350px
+}
+
+.sag2-qeyd {
+    width: 62%;
+}
+
+.sag2-qeyd h4 {
+    color: #3f3f3f;
+    ;
+    font-weight: 500;
+    font-size: 13px;
+    margin: 5px 0;
+}
+
+.sag2-basliqlar {
+    width: 100%;
+}
+
+.sag2-basliqlar ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sag2-basliqlar li {
+    padding: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.sag2-basliqlar li:first-child a {
+    border: 1px solid blue;
+    color: #0073b1;
+}
+
+.sag2-basliqlar li:first-child:hover a {
+    background-color: rgb(233, 233, 239);
+}
+
+.sag2-basliqlar a {
+    display: flex;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid grey;
+    margin: 5px 1px;
+
+
+}
+
+.sag2-basliqlar a:hover {
+    background-color: grey;
+}
+
+
+footer img {
+    width: 100%;
+}
+
+.sec3 {
+    background-color: #ffffff;
+    width: 100%;
+    height: 580px
+}
+
+.orta-3 {
+    width: 80%;
+    display: flex;
+}
+
+.sol-3 {
+    width: 45%;
+}
+
+.sol3-qeyd {
+    width: 62%;
+
+}
+
+.sol3-qeyd h1 {
+    color: #3f3f3f;
+    ;
+    font-weight: 300;
+    font-size: 40px;
+    margin-top: -20px;
+}
+
+.sol3 {
+    width: 50%;
+}
+
+.sag-3 {
+    width: 49%;
+}
+
+.sag3-qeyd {
+    width: 100%;
+    margin-top: -20px;
+
+}
+
+.sag3-qeyd h4 {
+    color: #3f3f3f;
+    ;
+    font-weight: 500;
+    font-size: 14px;
+    margin: 15px auto;
+
+}
+
+.sag3-basliqlar {
+    width: 100%;
+}
+
+.sag3-basliqlar ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sag3-basliqlar li {
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    margin: 2px 2px;
+}
+
+.sag3-basliqlar a {
+    display: flex;
+    margin: 5 px 1px;
+    padding: 10px;
+    border-radius: 30px;
+    border: 1px solid grey;
+}
+
+.sag3-basliqlar a:hover {
+    background-color: grey;
+}
+
+.sec4 {
+    position: relative;
+    background-color: #f1ece5;
+    width: 100%;
+    height: 280px
+}
+
+.orta-4 {
+    display: flex;
+    width: 80%;
+}
+
+.sol-4 {
+    width: 50%;
+}
+
+.sag-4 {
+    width: 49%;
+    display: flex;
+}
+
+.sol4-qeyd {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.sol4-qeyd h2 {
+    font-weight: 500;
+    font-size: 40px;
+    margin: 85px auto;
+    color: #b24020;
+}
+
+.sag4-basliq {
+    width: 100%;
+
+    display: flex;
+}
+
+.sag4-basliq a {
+    width: 120px;
+    margin-left: 150px;
+    align-self: center;
+    display: flex;
+    padding: 15px;
+    border-radius: 30px;
+    border: 1.5px solid rgb(55, 55, 207);
+    color: #2454a5;
+}
+
+.sag4-basliq a:hover {
+    background-color: hsl(200, 16%, 78%);
+}
+
+.sec5 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+    position: relative;
+    background-color: #f3f2f0;
+}
+
+.orta-5 {
+    display: flex;
+    width: 80%;
+}
+
+.sol-5 {
+    width: 50%;
+    align-items: center;
+}
+
+.sag-5 {
+    width: 49%;
+}
+
+.sol5-qeyd {
+    width: 100%;
+
+    display: contents;
+    margin-top: 100px;
+}
+
+.sol5-qeyd h2 {
+    width: 100%;
+    align-items: center;
+    margin: 15px auto;
+    font-size: 45px;
+    font-weight: 300;
+    color: #8f5849;
+    margin-top: 200px;
+}
+
+.sol5-qeyd p {
+    width: 100%;
+    margin: 15px auto;
+    font-size: 32px;
+    font-weight: 300;
+    color: black;
+}
+
+.sag5-sekil {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+
+.sag5-sekil img {
+    width: 100%;
+
+}
+
+.sec6 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+    position: relative;
+    background-color: #f3f2f0;
+}
+
+.orta-6 {
+    display: flex;
+    width: 80%;
+}
+
+.sol-6 {
+    width: 50%;
+    align-items: center;
+}
+
+.sag-6 {
+    width: 49%;
+}
+
+.sol6-qeyd {
+    width: 100%;
+
+    display: contents;
+    margin-top: 100px;
+}
+
+.sol6-qeyd h2 {
+    width: 100%;
+    align-items: center;
+    margin: 15px auto;
+    font-size: 40px;
+    font-weight: 300;
+    color: #8f5849;
+    margin-top: 200px;
+}
+
+.sol6-qeyd p {
+    width: 100%;
+    margin: 15px auto;
+    font-size: 32px;
+    font-weight: 300;
+    color: black;
+}
+
+.sag6-sekil {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+
+.sag6-sekil img {
+    width: 100%;
+
+}
+
+.sec7 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+    position: relative;
+    background-color: #f3f2f0;
+}
+
+.orta-7 {
+    display: flex;
+    width: 80%;
+}
+
+.sol-7 {
+    width: 50%;
+    align-items: center;
+}
+
+.sag-7 {
+    width: 49%;
+}
+
+.sol7-qeyd {
+    width: 100%;
+
+    display: contents;
+    margin-top: 100px;
+}
+
+.sol7-qeyd h2 {
+    width: 100%;
+    align-items: center;
+    margin: 15px auto;
+    font-size: 45px;
+    font-weight: 300;
+    color: #8f5849;
+    margin-top: 200px;
+}
+
+.sol7-qeyd p {
+    width: 100%;
+    margin: 15px auto;
+    font-size: 32px;
+    font-weight: 300;
+    color: black;
+}
+
+.sag7-sekil {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+
+
+}
+
+.sag7-sekil img {
+    width: 100%;
+
+}
+
+.sec-8 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    
+    background-color: #f3f2f0;
+
+}
+
+.orta-8 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 80%;
+
+}
+
+.sol-8 {
+    width: 50%;
+}
+
+.sag-8 {
+    width: 49%;
+}
+
+.sol8-sekil {
+    margin-top: 200px;
+    width: 322px;
+    margin-bottom: 10px;
+   margin-left: 25px;
+   height: 312px;
+    justify-content: flex-start;
+
+}
+
+.sol8-sekil img {
+    width: 100%;
+}
+
+.sol8-qeyd {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+}
+
+.sol8-qeyd h3 {
+    width: 100%;
+    font-size: 50px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.9);
+
+    align-items: center;
+    text-align: start;
+    margin: 15px 20px;
+}
+
+.sol8-basliq {
+    width: 100%;
+    margin: 30px 15px;
+    align-items: center;
+    text-align: left;
+}
+
+.sol8-basliq a {
+    width: 100%;
+    text-align: center;
+
+    border: 1px solid grey;
+    border-radius: 30px;
+    padding: 15px 35px;
+    color: black;
+
+
+}
+
+.sol8-basliq a:hover {
+    background-color: rgb(247, 243, 243);
+}
+
+.sag8-sekil {
+    margin-top: 200px;
+    width: 320px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    height: 340px;
+     justify-content: flex-start;
+
+}
+
+.sag8-sekil img {
+    width: 100%;
+}
+
+.sag8-qeyd {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sag8-qeyd h3 {
+    width: 100%;
+    font-size: 50px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.9);
+    margin: 15px 20px;
+    align-items: center;
+    text-align: left;
+
+}
+
+.sag8-basliq {
+    width: 100%;
+    margin: 30px 28px;
+    align-items: center;
+    text-align: left;
+
+}
+
+.sag8-basliq select {
+    padding: 15px 30px 15px 30px;
+    border: 1px solid grey;
+    width: 380px;
+    text-align: center;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.sag8-basliq select option {
+    text-align: left;
+    padding-top: 5px;
+}
+
+.sag8-basliq select:hover {
+    background-color: rgb(247, 243, 243);
+}
+
+.sec9 {
+    width: 100%;
+    height: 850px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url("./şəkil/bg-sekil.png");
+    background-position: center;
+    background-size: 128.5%;
+    background-repeat: no-repeat;
+    align-items: flex-start;
+
+
+}
+
+.orta-9 {
+    width: 80%;
+    text-align: center;
+
+
+
+}
+
+.orta9-qeyd {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 37px;
+
+
+}
+
+.orta9-qeyd h1 {
+    width: 100%;
+    display: flex;
+
+    text-align: left;
+    font-size: 55px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.9);
+
+
+}
+
+.sol9-basliq {
+    width: 100%;
+
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.sol9-basliq a {
+
+    font-size: 30px;
+    font-weight: 350;
+
+    border: 1px solid grey;
+    color: white;
+    padding: 8px;
+    border-radius: 30px;
+    background-color: #3362b4;
+
+
+}
+
+.sol9-basliq a:hover {
+    background-color: #0a3c92;
+}
+
+.orta9-sekil {
+    width: 100%;
+
+}
+
+.orta9-sekil img {
+    width: 100%;
+    margin-top: 40px;
+
+}
+
+.sec10 {
+    width: 100%;
+    height: 400px;
+    background-color: #f3f2f0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.sec10-orta {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.sec10-sol {
+    width: 20%;
+    text-align: left;
+
+}
+
+.sec10-logo {
+    width: 100%;
+    float: left;
+    margin-bottom: 320px;
+    text-align: left;
+    text-align: left;
+
+}
+
+.sec10-logo img {
+    width: 90px;
+    padding-top: 6px;
+    padding-left: 5px;
+
+}
+
+.sec10-sag {
+    display: flex;
+    text-align: center;
+
+
+}
+
+.sec10-qeyd {
+   
+    text-align: left;
+
+}
+
+.sec10-qeyd h3 {
+    margin-right: 110px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+
+.sec10-qeyd ul {
+    width: 100%;
+
+}
+
+.sec10-qeyd ul li {
+    width: 100%;
+    margin-top: 5px;
+    text-align: left;
+}
+
+.sec10-qeyd ul li a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #3f3f3f;
+    flex-direction: column;
+
+}
+
